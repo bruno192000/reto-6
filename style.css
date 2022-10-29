@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    width: 100vw;
+    height: 100vh;
+   
+    
+   
+}
+.wrapper {
+    height: 100%;
+    background-image: url(./src/nuebvo.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: blue ;
+    padding: 30px 50px ;
+    color:white;
+    font-size: 50px ;
+  
+    
+}
+button:hover{
+     background-color: red;
+     cursor: pointer;
+}
+.container{
+   text-align: center;
+   padding: 90px;
+  
+}
+.container h1{
+    margin-top: 50px;
+    font-size: 40px;
+}
